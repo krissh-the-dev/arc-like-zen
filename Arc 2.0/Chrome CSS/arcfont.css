@@ -5,10 +5,10 @@
 }
 
 /* Our symbols font */
-@font-face {
+/* @font-face {
   font-family: "SF-Symbols";
   src: url("./fonts/SF-Symbols.ttf");
-}
+} */
 
 /* Apple's Emoji Font */
 @font-face {
@@ -31,7 +31,7 @@
   opacity: 0.7;
 }
 
-#back-button:before {
+/* #back-button:before {
   content: "";
   margin-right: -19px;
   font-family: "SF-Symbols";
@@ -41,9 +41,9 @@
   content: "";
   margin-right: -19px;
   font-family: "SF-Symbols";
-}
+} */
 
-#reload-button:before {
+/* #reload-button:before {
   content: "";
   margin-right: -19px;
   font-size: 15px;
@@ -51,7 +51,7 @@
   font-family: "SF-Symbols";
   transition: 0.1s;
   transform-origin: 5px 15px;
-}
+} */
 
 #reload-button:active::before {
   rotate: 20deg;
